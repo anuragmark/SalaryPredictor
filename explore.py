@@ -15,7 +15,7 @@ countries.sort()
 
 education = ['Less Than a Bachelors', "Master's Degree", 'Post Grad',"Bachelor's Degree"]
 
-#@st.cache_data
+@st.cache_data
 def load_data():
     df = pd.read_csv("data/survey_results_public.csv")
 
@@ -103,7 +103,7 @@ def show_exploredata():
 
     c1,c2 = st.columns(2)
     with c1:
-        country1 = st.selectbox("Country 1",countries)
+    country1 = st.selectbox("Country 1",countries,)
     with c2:
         country2 = st.selectbox("Country 2", countries)
     degree = st.selectbox("Education",education)
