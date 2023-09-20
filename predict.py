@@ -23,7 +23,7 @@ countries = ['United States of America', 'United Kingdom', 'Australia',
        'Italy', 'Canada', 'Switzerland', 'India', 'Norway', 'Denmark',
        'Israel', 'Poland']
 
-education = ['Less Than a Bachelors', "Master's Degree", 'Post Grad']
+education = ['Less Than a Bachelors', "Master's Degree", 'Post Grad',"Bachelor's Degree"]
 
 def show_predictpage():
     st.title("Software Developer Salary Predictor")
